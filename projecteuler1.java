@@ -3,12 +3,12 @@ public class projecteuler1{
 		
 		int count = 0;
 			
-		for(int ix = 3; ix < 1000; ix = ix+3)
-			count = count + ix;
+		for(int x = 3; x < 1000; x = x+3)
+			count = count + x;
 		
-		for(int ii = 5; ii < 1000; ii = ii+5)
-		if (ii % 3 != 0)
-			count = count + ii;
+		for(int i = 5; i < 1000; i = i+5)
+		if (i % 3 != 0)
+			count = count + i;
 
 			System.out.println("");	
 			System.out.println("");	
